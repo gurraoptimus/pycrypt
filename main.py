@@ -18,5 +18,5 @@ for letter in plain_text:
     index = chars.index(letter)
     cipher_text += key[index]
 
-print(f"original message: {plain_text}")
+print(f"original message : {plain_text}")
 print(f"encrypted message: {plain_text}")
