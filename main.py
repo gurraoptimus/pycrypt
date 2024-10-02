@@ -6,4 +6,4 @@ chars = list(chars)
 key = chars.copy
 
 print (f"chars: {chars}")
-print(key)
+print (f"key: {key}")
