@@ -3,7 +3,7 @@ import string
 
 chars = " " + string.punctuation + string.digits + string.ascii_letters
 chars = list(chars)
-key = chars.copy
+key = chars.copy()
 
 random.shuffle(key)
 
